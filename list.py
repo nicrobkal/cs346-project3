@@ -49,9 +49,10 @@ def write_html():
 
 				background-color: #fff;
 			}
-			legend {padding-top: 5%;}
+			legend {
+				padding-top: 5%;
+			}
 
-			/* Hover */
 			tr:hover {
 				background-color: #B7D1EA;
 			}

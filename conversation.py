@@ -17,7 +17,7 @@ print("""Content-Type: text/html;charset=utf-8
     <head>
         <title>Skype 1985</title>
         <meta charset="utf-8">
-				<style>
+		<style>
 			html {
 				margin: 0;
 				padding: 0;
@@ -47,9 +47,10 @@ print("""Content-Type: text/html;charset=utf-8
 
 				background-color: #fff;
 			}
-			legend {padding-top: 5%;}
+			legend {
+                padding-top: 5%;
+            }
 
-			/* Hover */
 			tr:hover {
 				background-color: #B7D1EA;
 			}

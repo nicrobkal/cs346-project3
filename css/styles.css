@@ -26,3 +26,8 @@ fieldset {
 
 	background-color: #fff;
 }
+
+/* Hover */
+tr:hover {
+	background-color: #B7D1EA;
+}

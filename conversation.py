@@ -17,7 +17,43 @@ print("""Content-Type: text/html;charset=utf-8
     <head>
         <title>Skype 1985</title>
         <meta charset="utf-8">
-		<link rel="stylesheet" type="text/css" href="project3/css/styles.css">
+				<style>
+			html {
+				margin: 0;
+				padding: 0;
+				width: 100%;
+				font-family: sans-serif;
+			}
+			body {
+				margin: 0;
+				padding: 0;
+				width: 100%;
+
+				background-color: #8CC7FF;
+			}
+			h1 {
+				margin: 0;
+				padding: 1%;
+
+				background-color: #00aff0;
+				color: #fff;
+			}
+
+			fieldset {
+				border-width: 0;
+				margin: 0% 5%;
+				padding: 3%;
+				padding-bottom: 0%;
+
+				background-color: #fff;
+			}
+			legend {padding-top: 5%;}
+
+			/* Hover */
+			tr:hover {
+				background-color: #B7D1EA;
+			}
+		</style>
     </head>
     <body>
         <header><h1>%s</h1>

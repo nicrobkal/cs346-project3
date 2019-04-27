@@ -43,11 +43,13 @@ def write_html():
 
 			fieldset {
 				border-width: 0;
-				margin: 5%;
+				margin: 0% 5%;
 				padding: 3%;
+				padding-bottom: 0%;
 
 				background-color: #fff;
 			}
+			legend {padding-top: 5%;}
 
 			/* Hover */
 			tr:hover {

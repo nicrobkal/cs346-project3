@@ -19,7 +19,41 @@ def write_html():
 	<head>
 		<title>Skype '85</title>
 		<meta charset="utf-8">
-		<link rel="stylesheet" type="text/css" href="project3/css/styles.css">
+		<style>
+			html {
+				margin: 0;
+				padding: 0;
+				width: 100%;
+				font-family: sans-serif;
+			}
+			body {
+				margin: 0;
+				padding: 0;
+				width: 100%;
+
+				background-color: #8CC7FF;
+			}
+			h1 {
+				margin: 0;
+				padding: 1%;
+
+				background-color: #00aff0;
+				color: #fff;
+			}
+
+			fieldset {
+				border-width: 0;
+				margin: 5%;
+				padding: 3%;
+
+				background-color: #fff;
+			}
+
+			/* Hover */
+			tr:hover {
+				background-color: #B7D1EA;
+			}
+		</style>
 	</head>
 	<body>
 		<h1>Skype '85</h1>

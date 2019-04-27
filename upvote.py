@@ -36,7 +36,7 @@ conn.close()
 
 try:
     print("Status: 303 See other")
-    print("""Location: http://%s/cgi-bin/project2/conversation.py?Topic=%s&Username=%s""" % (pnsdp.WEB_HOST, topic, originUsername))
+    print("""Location: http://%s/cgi-bin/project3/conversation.py?Topic=%s&Username=%s""" % (pnsdp.WEB_HOST, topic, originUsername))
     print()
 
 except FormError as e:

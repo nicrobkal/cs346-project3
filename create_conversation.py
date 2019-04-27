@@ -48,7 +48,7 @@ try:
     topic,username = process_form()
 
     print("Status: 303 See other")
-    print("""Location: http://%s/cgi-bin/project2/list.py""" % (pnsdp.WEB_HOST))
+    print("""Location: http://%s/cgi-bin/project3/list.py""" % (pnsdp.WEB_HOST))
     print()
 
 except FormError as e:

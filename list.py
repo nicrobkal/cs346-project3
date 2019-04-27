@@ -29,6 +29,7 @@ def write_html():
 			body {
 				margin: 0;
 				padding: 0;
+				padding-bottom: 2%;
 				width: 100%;
 
 				background-color: #8CC7FF;
@@ -50,7 +51,7 @@ def write_html():
 				background-color: #fff;
 			}
 			legend {
-				padding-top: 5%;
+				padding-top: 7%;
 			}
 
 			tr:hover {

@@ -16,6 +16,8 @@ print("""Content-Type: text/html;charset=utf-8
 <html>
     <head>
         <title>Skype 1985</title>
+        <meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
     </head>
     <body>
         <header><h1>%s</h1>

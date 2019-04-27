@@ -16,8 +16,13 @@ def write_html():
     form = cgi.FieldStorage()
 
     print(""" <html>
-	<h1>Skype '85</h1>
+	<head>
+		<title>Skype '85</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+	</head>
 	<body>
+		<h1>Skype '85</h1>
 		<fieldset>
 			<legend> <font size="+2"> <b>Create New Conversation</b> </font> </legend>
 			<p>

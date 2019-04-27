@@ -21,7 +21,8 @@ h1 {
 
 fieldset {
 	border-width: 0;
-	margin: 15px 0%;
+	margin: 5%;
+	padding: 3%;
 
 	background-color: #fff;
 }
